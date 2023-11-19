@@ -1,16 +1,7 @@
 package com.example.SMAapp.machine;
 
-//import com.example.SMAapp.models.MachineList;
-//import com.example.SMAapp.repo.MachineListRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Service;
-import org.springframework.stereotype.Controller; //?
-
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-
 import java.util.List;
 import java.util.Optional;
 
@@ -20,7 +11,6 @@ public class ServiceMachine {
 
     MachineListRepo machineListRepo;
 
-    
     // get the list of all the machines
     public List<Machine> getAllMachine(){
         return machineListRepo.findAll();
