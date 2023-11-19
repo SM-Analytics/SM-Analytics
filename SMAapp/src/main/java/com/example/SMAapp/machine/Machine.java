@@ -17,9 +17,9 @@ import lombok.Setter;
 public class Machine {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id; // id in internal base??
-    private long inventNum; //inventory number
-    private String machineName; // name of machine
+    private long id;                        // id in internal base
+    private long inventNum;                 //inventory number
+    private String machineName;             // name of machine
 
 //    @Transient
 

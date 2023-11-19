@@ -20,7 +20,9 @@ public class ServiceMachine {
 
     MachineListRepo machineListRepo;
 
-    public List<Machine> getAllMachine(){ // get the list of all the machines
+    
+    // get the list of all the machines
+    public List<Machine> getAllMachine(){
         return machineListRepo.findAll();
     }
 
