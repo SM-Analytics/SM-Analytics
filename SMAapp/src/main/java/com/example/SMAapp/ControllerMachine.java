@@ -5,9 +5,7 @@ import com.example.SMAapp.machine.ServiceMachine;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-
 import java.util.List;
-
 
 @RestController
 
